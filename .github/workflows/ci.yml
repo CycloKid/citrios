@@ -65,5 +65,3 @@ jobs:
           name: ios-${{ matrix.configuration }}
           path: artifacts/
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          asset_paths: '["./**/*.tar.*","./**/*.7z","./**/*.zip","./**/*.apk","./**/*.aab"]'
