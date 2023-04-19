@@ -9,7 +9,7 @@
     <key>CFBundleGetInfoString</key>
     <string>${MACOSX_BUNDLE_INFO_STRING}</string>
     <key>CFBundleIconFile</key>
-    <string>AppIcon</string>
+    <string>${CMAKE_CURRENT_SOURCE_DIR}/resources/AppIcon</string>
     <key>CFBundleIdentifier</key>
     <string>${CMAKE_XCODE_ATTRIBUTE_PRODUCT_BUNDLE_IDENTIFIER}</string>
     <key>CFBundleInfoDictionaryVersion</key>
