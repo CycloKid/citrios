@@ -1,6 +1,5 @@
 <h1 align="center">
-  <br>
-  <a href="https://citra-emu.org/"><img src="https://raw.githubusercontent.com/citra-emu/citra-assets/master/Main/citra_logo.svg" alt="Citra" width="200"></a>
+  <a href="https://citra-emu.org/"><img src="https://raw.githubusercontent.com/c22dev/citrios/ios_frontend/dist/citra.png" alt="Citra" width="200" style="border-radius: 30px;"></a>
   <br>
   <b>CitriOS</b>
   <br>
@@ -20,14 +19,9 @@ It is written in C++ and based on Citra's code.
 
 ## Download
 
-The emulator itself is not out, but you can try it out by taking the build from the latest Github Workflow !
-
-
-
-
-We also more than gladly accept used 3DS consoles! If you would like to give yours away, don't hesitate to join our [Discord server](https://citra-emu.org/discord/) and talk to bunnei.
+The emulator itself is not out, but you can try it out by taking the build from the latest Github Workflow (or [Nightly.link](https://nightly.link/rinsuki/citra/workflows/ci/ios_frontend)
 
 
 ## License
 
-Citra is licensed under the GPLv2 (or any later version). Refer to the [LICENSE.txt](https://github.com/citra-emu/citra/blob/master/license.txt) file.
+Citra (base) is licensed under the GPLv2 (or any later version). Refer to the [LICENSE.txt](https://github.com/citra-emu/citra/blob/master/license.txt) file.
