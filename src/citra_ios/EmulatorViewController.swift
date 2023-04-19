@@ -66,8 +66,8 @@ class EmulatorViewController: UIViewController {
     @objc func activeGameControllerWasChanged(notification: Notification) {
         print("active game controller was changed")
         if let gamepad = GCController.current?.extendedGamepad {
-            gamepad.buttonA.valueChangedHandler = EmulatorInput.buttonB.valueChangedHandler
-            gamepad.buttonB.valueChangedHandler = EmulatorInput.buttonA.valueChangedHandler
+            gamepad.buttonB.valueChangedHandler = EmulatorInput.buttonB.valueChangedHandler
+            gamepad.buttonA.valueChangedHandler = EmulatorInput.buttonA.valueChangedHandler
             gamepad.buttonX.valueChangedHandler = EmulatorInput.buttonY.valueChangedHandler
             gamepad.buttonY.valueChangedHandler = EmulatorInput.buttonX.valueChangedHandler
             gamepad.leftShoulder.valueChangedHandler = EmulatorInput.buttonL.valueChangedHandler
